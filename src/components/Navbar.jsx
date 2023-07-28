@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 
-import styles from '../styles';
+import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { logo, menu, close } from '../assets';
 
@@ -16,7 +16,7 @@ const Navbar = () => {
           <img src={logo} alt="logo" className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>
             Shawn Tseng &nbsp;
-            <span className='sm:block hidden'>| Frond-end Engineer</span>
+            <span className='sm:block hidden'>|&nbsp;Frond-end Engineer</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">

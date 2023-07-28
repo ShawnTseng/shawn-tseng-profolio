@@ -17,11 +17,12 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Web Framework - Angular, React, Vue <br className='sm:block hidden' />
             Web Applications - RESTful, WebSocket <br className='sm:block hidden' />
-            Graphics - WebGL, SVG / Canva <br className='sm:block hidden' />
-            Stream - RTMP, HLS, HTTP-FLV <br className='sm:block hidden' />
+            {/* Graphics - WebGL, SVG / Canva <br className='sm:block hidden' />
+            Stream - RTMP, HLS, HTTP-FLV <br className='sm:block hidden' /> */}
           </p>
         </div>
       </div>
+      <ComputersCanvas />
     </section>
   )
 }
